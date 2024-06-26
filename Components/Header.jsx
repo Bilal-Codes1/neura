@@ -19,9 +19,6 @@ import { useState } from "react";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
-  menu
-    ? (document.body.style.overflow = "hidden")
-    : (document.body.style.overflow = "auto");
 
   return (
     <>
